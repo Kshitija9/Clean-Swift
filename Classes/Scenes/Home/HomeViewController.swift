@@ -25,10 +25,4 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         self.welcomeLabel.text =  HomeViewController.heyKey + name
     }
-    
-    //MARK: - Actions
-    
-    @IBAction private func backButton(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
 }
